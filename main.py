@@ -21,27 +21,27 @@ while True:
     users_choice = int(input("\nEnter your Choice: "))  
   
     if users_choice == 1:  
-          dataset['2007-08'].value_counts().plot(kind='bar' , figsize=(12,12))
-        
+          dataset['2007-08'].value_counts().plot(kind='pie' , figsize=(12,12))
+          plt.show()
   
     elif users_choice == 2:  
-        dataset['2008-09'].value_counts().plot(kind='bar' , figsize=(12,12))
-       
+        dataset['2008-09'].value_counts().plot(kind='pie' , figsize=(12,12))
+        plt.show()
 
     elif users_choice == 3:  
-        dataset['2009-10'].value_counts().plot(kind='bar' , figsize=(12,12))
-
+        dataset['2009-10'].value_counts().plot(kind='pie' , figsize=(12,12))
+        plt.show()
   
     elif users_choice == 4:  
-        dataset['2010-11'].value_counts().plot(kind='bar' , figsize=(12,12))
-
+        dataset['2010-11'].value_counts().plot(kind='pie' , figsize=(12,12))
+        plt.show()
 
     elif users_choice == 5:  
-        dataset['2011-12'].value_counts().plot(kind='bar' , figsize=(12,12))
-        
+        dataset['2011-12'].value_counts().plot(kind='pie' , figsize=(12,12))
+        plt.show()    
     elif users_choice == 6:  
-        dataset['2012-13'].value_counts().plot(kind='bar' , figsize=(12,12))
-        
+        dataset['2012-13'].value_counts().plot(kind='pie' , figsize=(12,12))
+        plt.show()    
     elif users_choice == 7:
         break 
     else:  
