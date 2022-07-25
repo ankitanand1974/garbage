@@ -42,7 +42,7 @@ while True:
     elif users_choice == 6:  
         dataset['2012-13'].value_counts().plot(kind='bar' , figsize=(12,12))
         
-    elif users_choice == 7 
+    elif users_choice == 7:
         break 
     else:  
         print( "Please enter a valid Input from the list")  
